@@ -1,2 +1,2 @@
 # meteor-autoform-input-addon-icon
-Bootstrap "input-group-addon" for autoform inputs.
+Input with bootstrap addon and custom icon for autoform.
