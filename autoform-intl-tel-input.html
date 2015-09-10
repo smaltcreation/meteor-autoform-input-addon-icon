@@ -1,0 +1,15 @@
+<template name="afInputSmaltAddonIcon">
+    <div class="input-group">
+        {{#if atts.left}}
+            <div class="input-group-addon">
+                <i class="{{atts.icon}}"></i>
+            </div>
+        {{/if}}
+        <input class="form-control {{atts.class}}" value="{{value}}" {{attributes}} {{type}}>
+        {{#unless atts.left}}
+            <div class="input-group-addon">
+                <i class="{{atts.icon}}"></i>
+            </div>
+        {{/unless}}
+    </div>
+</template>
