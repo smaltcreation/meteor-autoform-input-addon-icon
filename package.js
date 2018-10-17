@@ -11,7 +11,7 @@ Package.onUse(function(api) {
     api.use([
         'underscore',
         'templating',
-        'aldeed:autoform@5.3.2'
+        'aldeed:autoform'
     ], 'client');
 
     // Files
